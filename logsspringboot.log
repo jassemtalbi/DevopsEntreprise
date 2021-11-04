@@ -7330,3 +7330,5 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No b
 2021-11-04 16:14:13.005  INFO 6076 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
 2021-11-04 16:14:13.163  INFO 6076 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2021-11-04 16:14:13.220  WARN 6076 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-04 16:14:13.431  INFO 6076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path '/SpringMVC'
+2021-11-04 16:14:13.434  INFO 6076 --- [main] SpringBootCoreDataJpaMvcRest1Application : Started TimesheetSpringBootCoreDataJpaMvcRest1Application in 5.7 seconds (JVM running for 6.976)
