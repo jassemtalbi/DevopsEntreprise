@@ -7557,3 +7557,84 @@ Verify the connector's configuration, identify and stop any process that's liste
 2021-11-04 16:34:17.572  WARN 8732 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2021-11-04 16:34:17.812  INFO 8732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path '/SpringMVC'
 2021-11-04 16:34:17.814  INFO 8732 --- [restartedMain] SpringBootCoreDataJpaMvcRest1Application : Started TimesheetSpringBootCoreDataJpaMvcRest1Application in 6.118 seconds (JVM running for 7.437)
+2021-11-04 16:54:45.162  INFO 8732 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-04 16:54:45.192  INFO 8732 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-04 16:54:45.298  INFO 8732 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-04 16:54:45.348  INFO 8732 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-04 16:54:47.125  INFO 8732 --- [restartedMain] SpringBootCoreDataJpaMvcRest1Application : Starting TimesheetSpringBootCoreDataJpaMvcRest1Application on DESKTOP-LHPHVH1 with PID 8732 (C:\Users\Admin\Documents\GitHub\DevopsEntreprise\target\classes started by Admin in C:\Users\Admin\Documents\GitHub\DevopsEntreprise)
+2021-11-04 16:54:47.126  INFO 8732 --- [restartedMain] SpringBootCoreDataJpaMvcRest1Application : No active profile set, falling back to default profiles: default
+2021-11-04 16:54:48.407  INFO 8732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-04 16:54:48.517  INFO 8732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109ms. Found 3 repository interfaces.
+2021-11-04 16:54:48.629  INFO 8732 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d22c1c93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-04 16:54:48.872  INFO 8732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2021-11-04 16:54:48.875  INFO 8732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-04 16:54:48.875  INFO 8732 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-11-04 16:54:48.945  INFO 8732 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-04 16:54:48.946  INFO 8732 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1756 ms
+2021-11-04 16:54:49.087  INFO 8732 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-11-04 16:54:49.109  INFO 8732 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-11-04 16:54:49.127  INFO 8732 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-04 16:54:49.175  INFO 8732 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-04 16:54:49.946  INFO 8732 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-04 16:54:49.981  INFO 8732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-04 16:54:50.432  INFO 8732 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-04 16:54:50.553  INFO 8732 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-04 16:54:50.569  WARN 8732 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-04 16:54:50.914  INFO 8732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path '/SpringMVC'
+2021-11-04 16:54:50.920  INFO 8732 --- [restartedMain] SpringBootCoreDataJpaMvcRest1Application : Started TimesheetSpringBootCoreDataJpaMvcRest1Application in 3.963 seconds (JVM running for 1240.543)
+2021-11-04 16:54:50.924  INFO 8732 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-04 16:54:58.884  INFO 11132 --- [main] t.e.spring.EntrepriseServiceImplTest     : Starting EntrepriseServiceImplTest on DESKTOP-LHPHVH1 with PID 11132 (started by Admin in C:\Users\Admin\Documents\GitHub\DevopsEntreprise)
+2021-11-04 16:54:58.886  INFO 11132 --- [main] t.e.spring.EntrepriseServiceImplTest     : No active profile set, falling back to default profiles: default
+2021-11-04 16:55:02.739  INFO 11132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-04 16:55:03.044  INFO 11132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 272ms. Found 3 repository interfaces.
+2021-11-04 16:55:05.185  INFO 11132 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a42e8b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-04 16:55:06.208  INFO 11132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-04 16:55:07.012  INFO 11132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-04 16:55:07.291  INFO 11132 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-04 16:55:07.656  INFO 11132 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-04 16:55:07.662  INFO 11132 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-04 16:55:08.420  INFO 11132 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-04 16:55:09.765  INFO 11132 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-04 16:55:13.313  INFO 11132 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-04 16:55:19.177  INFO 11132 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-04 16:55:19.937  INFO 11132 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-04 16:55:22.048  WARN 11132 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-04 16:55:23.509  INFO 11132 --- [main] t.e.spring.EntrepriseServiceImplTest     : Started EntrepriseServiceImplTest in 26.715 seconds (JVM running for 32.751)
+2021-11-04 16:55:24.547  INFO 11132 --- [main] t.e.spring.EntrepriseServiceImplTest     : entreprise : Entreprise [id=14, name=entreprise2, raisonSocial=raisonSocial2, departements=[]]
+2021-11-04 16:55:24.561  INFO 11132 --- [main] t.e.spring.EntrepriseServiceImplTest     : Ajouter avec succes15
+2021-11-04 16:55:24.698  INFO 11132 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-04 16:55:24.709  INFO 11132 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-04 16:55:25.033  INFO 11132 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-04 16:55:25.051  INFO 11132 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-04 16:55:28.435  INFO 8732 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-04 16:55:28.439  INFO 8732 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-04 16:55:28.441  INFO 8732 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-11-04 16:55:28.450  INFO 8732 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-11-04 16:55:29.046  INFO 8732 --- [restartedMain] SpringBootCoreDataJpaMvcRest1Application : Starting TimesheetSpringBootCoreDataJpaMvcRest1Application on DESKTOP-LHPHVH1 with PID 8732 (C:\Users\Admin\Documents\GitHub\DevopsEntreprise\target\classes started by Admin in C:\Users\Admin\Documents\GitHub\DevopsEntreprise)
+2021-11-04 16:55:29.046  INFO 8732 --- [restartedMain] SpringBootCoreDataJpaMvcRest1Application : No active profile set, falling back to default profiles: default
+2021-11-04 16:55:29.357  INFO 8732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-04 16:55:29.379  INFO 8732 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 3 repository interfaces.
+2021-11-04 16:55:29.447  INFO 8732 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d22c1c93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-04 16:55:29.567  INFO 8732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2021-11-04 16:55:29.568  INFO 8732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-04 16:55:29.568  INFO 8732 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-11-04 16:55:29.589  INFO 8732 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-04 16:55:29.590  INFO 8732 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 541 ms
+2021-11-04 16:55:29.647  INFO 8732 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-11-04 16:55:29.652  INFO 8732 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-11-04 16:55:29.660  INFO 8732 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-04 16:55:29.672  INFO 8732 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-04 16:55:30.146  INFO 8732 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-04 16:55:30.177  INFO 8732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-04 16:55:30.436  INFO 8732 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-04 16:55:30.486  INFO 8732 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-04 16:55:30.496  WARN 8732 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-04 16:55:30.673  INFO 8732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path '/SpringMVC'
+2021-11-04 16:55:30.674  INFO 8732 --- [restartedMain] SpringBootCoreDataJpaMvcRest1Application : Started TimesheetSpringBootCoreDataJpaMvcRest1Application in 1.664 seconds (JVM running for 1280.297)
+2021-11-04 16:55:30.679  INFO 8732 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
