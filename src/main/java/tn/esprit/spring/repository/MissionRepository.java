@@ -1,4 +1,4 @@
-/*package tn.esprit.spring.repository;
+package tn.esprit.spring.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -14,4 +14,3 @@ public interface MissionRepository extends CrudRepository<Mission, Integer> {
 	public float numberMissions();	
 
 }
-*/
