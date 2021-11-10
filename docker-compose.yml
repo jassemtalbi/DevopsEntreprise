@@ -13,7 +13,7 @@ services:
   app:
     container_name: timesheet
     restart: unless-stopped
-    image: hizemmontassar/devops:54
+    image: jassemtalbi/devopsentreprise
     depends_on:
     - mysql
     ports:
