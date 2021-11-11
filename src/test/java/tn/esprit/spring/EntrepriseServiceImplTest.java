@@ -27,6 +27,7 @@ public class EntrepriseServiceImplTest {
 			int id;
 			id=entrepriseService.ajouterEntreprise(entreprise);
 			L.info("Ajouter avec succes"+id);
+			L.info("Logger Validation");
 		}catch (Exception e) { L.error("Erreur dans testAjouterEntreprise() : " + e); }
 		
 	}
